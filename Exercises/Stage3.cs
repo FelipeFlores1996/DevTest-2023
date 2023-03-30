@@ -20,7 +20,7 @@ namespace DevTes.Exercises
          //Dev Sr - Weekly salary: $6,250
          //QA Tester Sr - Weekly salary: $5,750
 
-         var data = GetData();
+         List<Job> data = GetData();
       }
 
       public static List<Job> GetData()
