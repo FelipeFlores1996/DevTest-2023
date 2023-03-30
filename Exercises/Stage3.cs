@@ -15,7 +15,7 @@ namespace DevTes.Exercises
          //2.- All the jobs that has a monthly salary above the average and its weekly salary.
          //
          //Expected results:
-         //Avergae = 21,000
+         //Average = 21,000
          //Team Leader - Weekly salary: $7,500
          //Dev Sr - Weekly salary: $6,250
          //QA Tester Sr - Weekly salary: $5,750
