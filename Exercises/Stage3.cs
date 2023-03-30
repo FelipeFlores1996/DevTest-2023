@@ -14,9 +14,9 @@ namespace DevTes.Exercises
          //
          //Expected results:
          //Avergae = 21,000
-         //Team Leader 
-         //Dev Sr. 
-         //QA Tester Sr.
+         //Team Leader - Weekly salary: $7,500
+         //Dev Sr - Weekly salary: $6,250
+         //QA Tester Sr - Weekly salary: $5,750
 
          var data = GetData();
       }
@@ -24,18 +24,18 @@ namespace DevTes.Exercises
       public static List<Job> GetData()
       {
          return new List<Job>() {
-            new Job(){ ID = 1, Salary = 30000, Name = "Team Leader"},
-            new Job(){ ID = 2, Salary = 25000, Name = "Dev Sr."},
-            new Job(){ ID = 3, Salary = 15000, Name = "Dev Jr."},
-            new Job(){ ID = 4, Salary = 23000, Name = "QA Tester Sr."},
-            new Job(){ ID = 5, Salary = 12000, Name = "QA Tester Jr."},
+            new Job(){ ID = 1, MonthlySalary = 30000, Name = "Team Leader"},
+            new Job(){ ID = 2, MonthlySalary = 25000, Name = "Dev Sr."},
+            new Job(){ ID = 3, MonthlySalary = 15000, Name = "Dev Jr."},
+            new Job(){ ID = 4, MonthlySalary = 23000, Name = "QA Tester Sr."},
+            new Job(){ ID = 5, MonthlySalary = 12000, Name = "QA Tester Jr."},
          };
       }
 
       public class Job
       {
          public int ID { get; set; }
-         public decimal Salary { get; set; }
+         public decimal MonthlySalary { get; set; }
          public string Name { get; set; }
       }
    }
