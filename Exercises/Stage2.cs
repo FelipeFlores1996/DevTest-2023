@@ -10,13 +10,22 @@ namespace DevTes.Exercises
    {
       public void Main()
       {
-         //Display all sick chicks.
+         //Display all the sick chicks and how many chicks are not sick.
          //
          //Expected results:
          //Hernesto
          //Jaimico
          //Laura
-
+         //Healthy chicks: 3
+         
+         //Display all the chicks sort by Name.
+         //Expected resutls:
+         //Hernesto
+         //Jaimico
+         //Juan
+         //Laura
+         //Lucia
+         
          var data = GetData();
       }
 
