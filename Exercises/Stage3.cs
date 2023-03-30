@@ -10,7 +10,9 @@ namespace DevTes.Exercises
    {
       public void Main()
       {
-         //Get the average salary of all jobs and display all the jobs that has a salary above the average and its weekly salary.
+         //Display the next information in the console:
+         //1.- Average montlhy aalary 
+         //2.- All the jobs that has a monthly salary above the average and its weekly salary.
          //
          //Expected results:
          //Avergae = 21,000
