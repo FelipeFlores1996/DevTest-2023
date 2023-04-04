@@ -11,7 +11,7 @@ namespace DevTes.Exercises
          var medicineData = GetMedicineData();
          var costData = GetCostData();
 
-         // 1.-Get all medicine that is already expired before today. 
+         // 1.-Get all medicine that is already expired today. 
          // 
          // Expected result:
          // Acetaminophen
