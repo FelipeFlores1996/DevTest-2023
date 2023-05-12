@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,8 @@ namespace DevTes.Exercises
 {
    public class Stage3
    {
-      public void Main()
+       
+      static void Main(string[] args)
       {
          //Display the next information in the console:
          //1.- Average montlhy aalary 
